@@ -4,10 +4,12 @@ nav {
     width: 100%;
     background: #FFFFFF;
     box-shadow: 5px 5px 5px #888888, -5px -5px 5px #888888;
+    padding: 10px 10px;
   }
   nav img{
     margin-top: 17px;
   float: left;
+  cursor: pointer;
   
   }
   
@@ -17,13 +19,14 @@ nav {
   
   nav li {
     float: right;
+    margin-right: 40px;
   }
   
   nav a {
     display: inline-block;
     color: #000000;
     text-decoration: none;
-    padding: 25px;
+    padding: 20px;
     font-family: 'Heiti TC';
     font-style: normal;
     font-weight: 400;
@@ -32,25 +35,30 @@ nav {
   }
   
   nav button{
+    padding: 10px;
+    text-align: center;
     width: 70px;
     height: 30px;
     background: rgba(174, 191, 207, 0.8);
     mix-blend-mode: normal;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
     border-radius: 50px;
     cursor: pointer;
   }
   nav a:hover{
-    color: #851a1a;
-    border-radius: 20px;
+    color: #990303;
+    border-radius: 10px;
+    border-left: 1px solid #ccc;
   }
   nav button:hover{
   border: 0 solid;
+  color: #FFFFFF;
+  background: #990303;
+  font-weight: bold;
+  transition: 0.5s ease;
   }
-  nav button:hover{
-    color: #000;
-  }
-  
+
   .checkButton{
     font-size: 30px;
     color: black;

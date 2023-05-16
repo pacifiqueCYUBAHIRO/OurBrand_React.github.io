@@ -17,7 +17,7 @@ function Navbar() {
                 <a href="Service.js">Service</a>
                 <a href="About.js">About</a>
                 <a href="Contact.js">Contact</a>
-                <a href="Hire.js"><button>Hire</button></a>
+                <button>Hire</button>
             </li>
         </ul>
  </nav>

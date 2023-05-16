@@ -3,7 +3,6 @@ import advise from './images/advise.png';
 import acc from './images/acc.png';
 import icc3 from './images/icc3.png';
 import accounting from './images/accounting.png';
-import bghome1 from './images/bghome1.png';
 import React from 'react';
 import './HomeStyles.css';
 function Home() {
@@ -12,7 +11,7 @@ function Home() {
     const link3 = "https://www.github.com";
   return (
     <div>
-        <br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/>
    <div className="container">
     <div className="half">
         <h1>Get your Website now </h1>
