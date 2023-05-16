@@ -1,0 +1,103 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 5px #888888, -5px -5px 5px #888888;
+  }
+  nav img{
+    margin-top: 17px;
+  float: left;
+  
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    float: right;
+  }
+  
+  nav a {
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+    padding: 25px;
+    font-family: 'Heiti TC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  nav button{
+    width: 70px;
+    height: 30px;
+    background: rgba(174, 191, 207, 0.8);
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  nav a:hover{
+    color: #851a1a;
+    border-radius: 20px;
+  }
+  nav button:hover{
+  border: 0 solid;
+  }
+  nav button:hover{
+    color: #000;
+  }
+  
+  .checkButton{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    margin-top: 20px;
+  }
+  
+  .myCheckBox{
+    display: none;
+  }
+
+
+  @media (max-width: 1200px) {
+
+    
+    .checkButton{
+        display: block;
+    }
+    nav{
+        padding: 0;
+    }
+    
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(34, 31, 32);
+        top: 80px;
+        left: -130%;
+        text-align: center;
+        transition: all .5s;
+    }
+    
+    nav ul li a{
+        display: block;
+        font-size: 20px;
+        color: white;
+        margin-right: 150px;
+       
+    }
+    
+    .myCheckBox:checked ~ ul{
+        left: 0;
+    }
+    
+  }
