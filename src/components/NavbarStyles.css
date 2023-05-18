@@ -7,7 +7,7 @@ nav {
     padding: 10px 10px;
   }
   nav img{
-    margin-top: 10px;
+  
   float: left;
   cursor: pointer;
   
@@ -26,7 +26,7 @@ nav {
     display: inline-block;
     color: #000000;
     text-decoration: none;
-    padding: 20px;
+    padding: 11px;
     font-family: 'Heiti TC';
     font-style: normal;
     font-weight: 400;
@@ -35,26 +35,35 @@ nav {
   }
   
   nav button{
-    padding: 10px;
+    padding: 8px 10px;
     text-align: center;
     width: 70px;
+    margin-left: 10px;
     height: 30px;
+    font-family: 'Heiti TC';
+    font-size: 15px;
+    text-transform: uppercase;
     background: rgba(174, 191, 207, 0.8);
     mix-blend-mode: normal;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
-    border-radius: 50px;
+    border-radius: 10px;
     cursor: pointer;
   }
   nav a:hover{
-    color: #990303;
-    border-radius: 10px;
-    border-left: 1px solid #ccc;
+    color: black;
+    padding: 11px;
+    border-radius: 10%;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #ebe9e9, -3px -2px 2px #f3f2f2;
+    border-left: 2px solid #000000;
+  
+  transition: 0.2s ease;
   }
   nav button:hover{
   border: 0 solid;
   color: #FFFFFF;
-  background: #990303;
+  background: #000000;
   font-weight: bold;
   transition: 0.5s ease;
   }
@@ -82,8 +91,9 @@ nav {
         display: block;
     }
     nav{
-        padding: 0;
+        padding: 8px;
     }
+
     
     ul{
         position: fixed;

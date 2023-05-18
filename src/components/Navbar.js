@@ -13,10 +13,10 @@ function Navbar() {
    <img src={photo} alt="" />
         <ul>
             <li>  
-                <a href="Home.js">Home</a>
-                <a href="Service.js">Service</a>
-                <a href="About.js">About</a>
-                <a href="Contact.js">Contact</a>
+                <a >Home</a>
+                <a >Service</a>
+                <a >About</a>
+                <a >Contact</a>
                 <button>Hire</button>
             </li>
         </ul>

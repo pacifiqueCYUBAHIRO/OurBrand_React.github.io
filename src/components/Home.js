@@ -6,9 +6,7 @@ import accounting from './images/accounting.png';
 import React from 'react';
 import './HomeStyles.css';
 function Home() {
-    const link1 = "https://www.facebook.com";
-    const link2 = "https://www.tweeter.com";
-    const link3 = "https://www.github.com";
+    const link0 = 'Hire.js';
   return (
     <div>
         <br/><br/><br/><br/>
@@ -29,7 +27,9 @@ function Home() {
 
             </p>
         </div>
+        
         <br/>
+        
             <div className="sub-half"> 
             <img src={icc1} alt="" />
             <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
@@ -48,12 +48,12 @@ function Home() {
             leg build some thing that is going to benefit all, form the user and the administrator sides 
             from this frame work we will learn how to manage the things you have just posted and create a desired work from both parties
         </p>
-        <img src={icc3} alt="" />
+        <a href={link0}><img src={icc3} width={'300px'} alt="" /></a>
     </div>
 </div>
 </div>
 
-
+<div className='main'>
 <div className="whatwedo" id="article"><label>What also we do</label>
     <div className="columns">
         <div className="column">
@@ -109,47 +109,8 @@ function Home() {
 
     </div>
 </div>
-
-
-
-
-<div className="footer">
-
-        <div className="social">Follow Us :
-            <div class="social-icons">
-                <a href={link1}><i className="fa-brands fa-facebook"></i></a>
-                <a href={link2}><i className="fa-brands fa-twitter-square"></i></a>
-                <a href={link3}><i className="fa-brands fa-github"></i></a>
-            </div>
-        </div>
- <div className="all-links">
-    <div className="links">
-        <h4>Links</h4>
-        <a href="">Best design</a>
-        <a href="#article">Article</a>
-        <a href="#">FAQ</a>
-    </div>
-
-    <div className="links">
-        <h4>Team</h4>
-        <a href="">Review</a>
-        <a href="">Help</a>
-        <a href="">privacy policy</a>
-
-    </div>
-
-        <div className="links">
-            <h4>About</h4>
-            <a href={link1}>Services</a>
-            <a href={link2}>payment options</a>
-            <a href={link3}>Latest article</a>
-        </div>
-
-    </div>
-
-    <hr />
-<div className="copyright">&copy;Alright Resvered Blue's Team@ bluedot.com</div>
 </div>
+
 
 
     </div> 
