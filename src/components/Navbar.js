@@ -1,6 +1,7 @@
 import photo from './images/logo.png';
 import React from 'react';
 import './NavbarStyles.css';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 function Navbar() {
  
@@ -13,7 +14,7 @@ function Navbar() {
    <img src={photo} alt="" />
         <ul>
             <li>  
-                <a >Home</a>
+                <a href='./Contact.js'>Home</a>
                 <a >Service</a>
                 <a >About</a>
                 <a >Contact</a>

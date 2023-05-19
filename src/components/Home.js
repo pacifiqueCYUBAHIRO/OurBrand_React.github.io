@@ -9,7 +9,8 @@ function Home() {
     const link0 = 'Hire.js';
   return (
     <div>
-        <br/><br/><br/><br/>
+    
+   <div className='main'>
    <div className="container">
     <div className="half">
         <h1>Get your Website now </h1>
@@ -22,8 +23,7 @@ function Home() {
         <div className="sub-half"> 
         <img src={icc1} alt="" />
             <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.
-            Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.
-            Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.
+           
 
             </p>
         </div>
@@ -51,9 +51,8 @@ function Home() {
         <a href={link0}><img src={icc3} width={'300px'} alt="" /></a>
     </div>
 </div>
-</div>
+</div></div>
 
-<div className='main'>
 <div className="whatwedo" id="article"><label>What also we do</label>
     <div className="columns">
         <div className="column">
@@ -108,7 +107,6 @@ function Home() {
         </div>
 
     </div>
-</div>
 </div>
 
 
